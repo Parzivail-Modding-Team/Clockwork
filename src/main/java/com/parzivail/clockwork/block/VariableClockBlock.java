@@ -71,14 +71,14 @@ public class VariableClockBlock extends Block
 				world.setBlockState(pos, state.cycle(OFF_INTERVAL), 3);
 				int off = world.getBlockState(pos).get(OFF_INTERVAL);
 				int on = world.getBlockState(pos).get(ON_INTERVAL);
-				player.addChatMessage(new TranslatableText("block.clockwork.variable_clock.off_interval", off, off + on), true);
+				player.sendMessage(new TranslatableText("block.clockwork.variable_clock.off_interval", off, off + on), true);
 			}
 			else
 			{
 				world.setBlockState(pos, state.cycle(ON_INTERVAL), 3);
 				int off = world.getBlockState(pos).get(OFF_INTERVAL);
 				int on = world.getBlockState(pos).get(ON_INTERVAL);
-				player.addChatMessage(new TranslatableText("block.clockwork.variable_clock.on_interval", on, off + on), true);
+				player.sendMessage(new TranslatableText("block.clockwork.variable_clock.on_interval", on, off + on), true);
 			}
 			return ActionResult.SUCCESS;
 		}
