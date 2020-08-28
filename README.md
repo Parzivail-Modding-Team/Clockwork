@@ -1,16 +1,13 @@
-# Fabric Example Mod
+# Clockwork
 
-## Setup
+Clockwork meets the need for simple, compact, configurable redstone clocks. It adds one block, the Variable Clock.
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+![A working clock](https://i.imgur.com/hrNCIon.png)
 
-```
-./gradlew idea
-```
+## Usage
 
-## License
+The Variable Clock functions as a Pulse Width Modulation (PWM) wave generator. The "on" and "off" intervals can be set between 1 and 19 ticks each. Increment the "on" interval by right clicking with an empty hand, and increment the "off" interval by sneak right-clicking with an empty hand. Simple.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Crafting Recipe
+
+![Crafting recipe](https://i.imgur.com/qC88ajr.png)
