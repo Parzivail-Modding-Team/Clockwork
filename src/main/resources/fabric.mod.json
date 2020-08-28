@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "clockwork",
+  "version": "${version}",
+  "name": "Clockwork",
+  "description": "Simplify your redstone.",
+  "authors": [
+	"Me!"
+  ],
+  "contact": {
+	"homepage": "https://fabricmc.net/",
+	"sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/clockwork/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"main": [
+	  "com.parzivail.clockwork.Clockwork"
+	]
+  },
+  "mixins": [
+	"clockwork.mixins.json"
+  ],
+  "depends": {
+	"fabricloader": ">=0.7.2",
+	"fabric": "*",
+	"minecraft": "1.15.x"
+  },
+  "suggests": {
+	"flamingo": "*"
+  }
+}

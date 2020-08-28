@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"RIR", "PCP", "RIR"
+  ],
+  "key": {
+	"R": {
+	  "item": "minecraft:redstone"
+	},
+	"C": {
+	  "item": "minecraft:clock"
+	},
+	"I": {
+	  "item": "minecraft:iron_ingot"
+	},
+	"P": {
+	  "item": "minecraft:repeater"
+	}
+  },
+  "result": {
+	"item": "clockwork:variable_clock",
+	"count": 1
+  }
+}

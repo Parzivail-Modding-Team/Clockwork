@@ -1,0 +1,6 @@
+{
+  "itemGroup.clockwork.general": "Clockwork",
+  "block.clockwork.variable_clock": "Variable Clock",
+  "block.clockwork.variable_clock.on_interval": "On interval: %s (Total interval: %s)",
+  "block.clockwork.variable_clock.off_interval": "Off interval: %s (Total interval: %s)"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+	"": {
+	  "model": "clockwork:block/variable_clock"
+	}
+  }
+}
